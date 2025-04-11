@@ -1,0 +1,5 @@
+{
+  "computeType": "ACI",
+  "cpuCores": 1,
+  "memoryInGB": 1
+}

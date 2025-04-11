@@ -1,0 +1,26 @@
+{
+  "entryScript": "score.py",
+  "environment": {
+    "name": "langchain-serp-env",
+    "python": {
+      "interpreterPath": "python",
+      "userManagedDependencies": false,
+      "condaDependencies": {
+        "dependencies": [
+          "python=3.9",
+          "pip",
+          {
+            "pip": [
+              "fastapi",
+              "uvicorn",
+              "python-dotenv",
+              "openai",
+              "langchain",
+              "requests"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
